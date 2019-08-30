@@ -1,0 +1,796 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.top30 {
+  margin-top: 120px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.top60 {
+  margin: 60px 0 0 52px;
+}
+
+/* .topImg {
+  background-image: url("./assets/images/main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* Navbar Component CSS */
+
+.navbar {
+  font-weight: 600;
+}
+.navbar-brand {
+  font-weight: bold;
+  margin: 0 0 0 88px;
+  margin-left: 0;
+}
+.navbar-brand img {
+  width: 175px;
+}
+
+#navmenu {
+  margin-top: 33px;
+}
+.foodtext {
+  color: #f8a22f;
+}
+
+li.nav-item {
+  margin-right: 48px;
+}
+
+li.nav.item a {
+  color: #cdcbcc;
+}
+
+/* #navmenu .navbar-nav .active > .nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 3px solid #f8a22f;
+} */
+
+#navmenu .navbar-nav .active > .nav-link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 3px solid #f8a22f;
+}
+
+#navmenu .navbar-nav .nav-link {
+  color: #d3d3d3;
+}
+
+#navmenu .navbar-nav .nav-link:hover {
+  border-bottom: 3px solid #f8a22f;
+}
+
+.contact-us-btn {
+  background: #f8a22f;
+  border: #f8a22f;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  padding: 9px 31px;
+}
+
+.contact-us-btn:hover {
+  background: #dd7d00;
+  color: #fff;
+}
+
+.callback {
+  margin-left: 10px;
+}
+
+.callback-btn {
+  border: 2px solid #f8a22f;
+  border-radius: 50px;
+  color: #f8a22f;
+  font-weight: 600;
+  padding: 7px 31px;
+}
+
+.callback-btn:hover {
+  background: #f8a22f;
+  color: #fff;
+}
+
+.callback a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*  Menu Component CSS*/
+
+.menu {
+  margin-top: 160px;
+  padding-left: 1.5rem;
+  position: relative;
+  height: 428px;
+}
+
+/* .menu h1 {
+  color: #fff;
+}
+
+.menu p {
+  color: #d3d3d3;
+  margin: 26px 0 48px 0;
+} */
+
+.menu p {
+  color: darkgray;
+  margin: 26px 0 48px 0;
+}
+
+.menu .menu-button {
+  background: #f8a22f;
+  border: #f8a22f;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  padding: 9px 52px;
+}
+
+.menu .menu-button:hover {
+  background: #dd7d00;
+  color: #fff;
+}
+
+.social {
+  position: absolute;
+  bottom: 0;
+}
+
+.social ul {
+  display: flex;
+}
+
+.social ul li:first-child {
+  margin-right: 44px;
+}
+
+.social ul li a img {
+  width: 25px;
+}
+
+.top-pizza {
+  background-image: url("./assets/images/mainimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+div.pizzavideo {
+  width: 100%;
+  height: 597px;
+  overflow: hidden;
+  position: relative;
+}
+
+.play {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 74px;
+
+  border-color: transparent transparent transparent #fff;
+  transition: 100ms all ease;
+  cursor: pointer;
+
+  border-style: solid;
+  border-width: 37px 0 37px 60px;
+  position: absolute;
+  bottom: 327px;
+  left: 45%;
+  top: 42%;
+}
+
+div.pizzavideo h1 {
+  position: absolute;
+  bottom: 229px;
+  margin: 0 auto;
+  text-align: center;
+  top: 60%;
+  color: #fff;
+  width: 100%;
+  font-weight: 400;
+}
+
+/*  OurFood Component CSS */
+
+div.ourfood {
+  display: flex;
+}
+
+#ourfoodimg {
+  width: 100%;
+  border-top-right-radius: 117px;
+  border-bottom-right-radius: 117px;
+}
+
+div.ourfoodtxt h1 {
+  margin-left: 37px;
+}
+
+.headderline {
+  border-bottom: 5px solid #f8a22f;
+  width: 154px;
+  margin-left: 41px;
+  border-radius: 5px;
+}
+
+ul.feature {
+  margin-top: 35px;
+  margin-bottom: 65px;
+}
+
+ul.feature li {
+  font-size: 1.5rem;
+  font-weight: 600;
+  list-style: none;
+  background: url("./assets/images/plus.png") no-repeat 0 4px;
+  padding-left: 45px;
+}
+
+ul.feature p {
+  margin-left: 47px;
+  color: darkgray;
+}
+.learn-more {
+  background: #f8a22f;
+  border: #f8a22f;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  padding: 9px 34px;
+  margin-left: 45px;
+}
+
+.learn-more:hover {
+  background: #dd7d00;
+  color: #fff;
+}
+
+/* Plans Componnet CSS */
+
+.planSection .row-margin {
+  margin-right: 0;
+}
+
+.plan-center {
+  display: inline-flex;
+}
+.plan {
+  background: #f8a22f;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.plan h1 {
+  text-align: right;
+  margin-right: 6%;
+}
+
+.hrplan {
+  border-bottom: 5px solid #fff;
+  width: 122px;
+  float: right;
+  margin: 0 6% 0 0;
+  border-radius: 5px;
+}
+
+.option-btn {
+  margin-top: 10px;
+}
+
+.more-option {
+  background: #fff;
+  border: #fff;
+  border-radius: 50px;
+  color: #f8a22f;
+  font-weight: 600;
+  padding: 9px 34px;
+}
+
+div.offer,
+div.popular {
+  display: inline-flex;
+}
+div.offer {
+  padding: 0px 40px 0px 80px;
+}
+div.popular {
+  padding: 0px 80px 0px 40px;
+}
+
+#offerimg {
+  width: 100%;
+  border-radius: 26px;
+}
+
+#popularimg {
+  width: 100%;
+  border-radius: 26px;
+}
+
+/*  Contact Us Component CSS */
+
+#contactus .alert {
+  width: 253px;
+}
+
+.contact-title {
+  margin-left: 100px;
+}
+
+.contact-hr {
+  width: 76px;
+  text-align: left;
+  margin: 15px 0;
+  border: 2px solid #f8a22f;
+  border-radius: 5px;
+}
+
+.contact-form {
+  border: 1px solid #f8a22f;
+  background: #f8a22f;
+  padding: 55px 43px 35px 43px;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 105px;
+  top: 0;
+}
+
+.form-check-label {
+  color: #fff;
+}
+
+.contact-btn {
+  background: #fff;
+  border: #fff;
+  border-radius: 5px;
+  color: #f8a22f;
+  font-weight: 600;
+  padding: 12px 55px;
+  margin: 0 auto;
+}
+
+.has-danger {
+  border: 1px solid red;
+}
+
+div.map {
+  height: 500px;
+  margin-top: 167px;
+  background: url("./assets/images/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mapimg {
+  clip-path: inset(0% 0% 0% 0%);
+  width: 100%;
+}
+
+/*  Footer Component CSS */
+
+footer {
+  background: url("./assets/images/antipasti-delicious.jpg");
+  position: relative;
+  color: #fff;
+  padding-top: 50px;
+  background-position: center;
+}
+
+footer .navbar-brand {
+  margin: 0;
+}
+
+footer:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.footer-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-network ul {
+  display: flex;
+}
+
+.social-network ul li {
+  margin-right: 10px;
+}
+
+.social-network ul li img {
+  width: 24px;
+  background: #fff;
+  border-radius: 100%;
+}
+
+.footer-hr {
+  border: 1px solid #fff;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+  .top60 {
+    margin: 60px 0 0 0;
+  }
+
+  .contactBtn {
+    margin: 13px 0 25px 0;
+  }
+
+  .callback {
+    margin-left: 0px;
+  }
+
+  #ourfoodimg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  #offerimg,
+  #popularimg,
+  #ourfoodimg {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  div.offer,
+  div.popular {
+    margin: 62px 0 0 0;
+    padding: 0 30px;
+  }
+
+  .ourfoodtxt {
+    margin-top: 80px;
+  }
+
+  .foodSection .row-margin {
+    margin: 35px 0;
+  }
+
+  .planSection {
+    text-align: center;
+  }
+
+  .planSection .row-margin {
+    margin: 0;
+  }
+
+  .plan h1,
+  .hrplan {
+    margin-right: 3%;
+  }
+
+  .option-btn {
+    text-align: left;
+  }
+
+  .plan-center {
+    display: inline-flex;
+  }
+
+  .contact-form {
+    width: auto;
+  }
+
+  #mapimg {
+    width: auto;
+  }
+
+  .footer-logo {
+    margin: 0 auto 40px 0;
+  }
+
+  .footer-logo,
+  .address,
+  .footer-menu,
+  .social-network,
+  .social-network ul {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .address p {
+    margin-bottom: 10px;
+  }
+  .social-network ul {
+    display: inline-flex;
+  }
+
+  .allRights {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  .top60 {
+    margin: 60px 0 0 0;
+  }
+
+  .contactBtn {
+    margin: 13px 0 25px 0;
+  }
+
+  .callback {
+    margin-left: 0px;
+  }
+
+  #ourfoodimg {
+    position: relative;
+  }
+
+  #offerimg,
+  #popularimg,
+  #ourfoodimg {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  div.offer,
+  div.popular {
+    margin: 62px 0 0 0;
+    padding: 0 30px;
+  }
+
+  div.ourfood {
+    display: block;
+  }
+
+  .foodSection .row-margin {
+    margin: 120px 0;
+  }
+
+  .ourfoodtxt {
+    margin-top: 80px;
+  }
+
+  .planSection {
+    text-align: center;
+  }
+
+  .planSection .row-margin {
+    margin: 0;
+  }
+
+  .option-btn {
+    text-align: left;
+  }
+
+  .plan-center {
+    display: inline-flex;
+  }
+
+  .contact-form {
+    width: auto;
+  }
+
+  #mapimg {
+    width: auto;
+  }
+
+  .footer-logo {
+    margin: 0 auto 40px 0;
+  }
+
+  .footer-logo,
+  .address,
+  .footer-menu,
+  .social-network,
+  .social-network ul {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .address p {
+    margin-bottom: 10px;
+  }
+  .social-network ul {
+    display: inline-flex;
+  }
+
+  .allRights {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .top60 {
+    margin: 60px 0 0 0;
+  }
+
+  .contactBtn {
+    margin: 5px 0 9px 0;
+  }
+
+  .callback {
+    margin-left: 0px;
+  }
+
+  .menuSection .menu {
+    padding-left: 1.2rem;
+  }
+
+  /*  div.pizzavideo h1 {
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+  } */
+
+  #ourfoodimg {
+    position: relative;
+  }
+
+  #offerimg,
+  #popularimg,
+  #ourfoodimg {
+    min-width: 100%;
+  }
+
+  div.offer,
+  div.popular {
+    margin: 62px 0 0 0;
+    padding: 0 30px;
+  }
+
+  div.ourfood {
+    flex-direction: column;
+  }
+
+  .foodSection .row-margin {
+    margin: 120px 0;
+  }
+
+  .ourfoodtxt {
+    margin-top: 80px;
+  }
+
+  .planSection {
+    text-align: center;
+  }
+
+  .planSection .row-margin {
+    margin: 0;
+  }
+
+  .planSection .header h1 {
+    margin-left: 10px;
+    margin-right: 8%;
+  }
+
+  .hrplan {
+    margin-right: 8%;
+  }
+
+  .option-btn {
+    text-align: left;
+  }
+
+  .plan-center {
+    display: inline-flex;
+  }
+
+  .contactSection .contact-title,
+  .contactSection .contact-form {
+    margin-left: 3%;
+  }
+
+  .contact-form {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .more-option {
+    padding: 9px 12px;
+  }
+
+  #mapimg {
+    width: auto;
+  }
+
+  .footer-logo {
+    margin: 0 auto 40px 0;
+  }
+
+  .footer-logo,
+  .address,
+  .footer-menu,
+  .social-network,
+  .social-network ul {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .address p {
+    margin-bottom: 10px;
+  }
+  .social-network ul {
+    display: inline-flex;
+  }
+
+  .allRights {
+    text-align: center;
+  }
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+[class*="row"] {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

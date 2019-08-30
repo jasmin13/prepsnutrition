@@ -1,0 +1,44 @@
+{
+  "name": "prepsnutrition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start-dev",
+    "start-dev": "nodemon --exec babel-node src/index.js",
+    "start-mongo": "mongod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^2.0.3",
+    "connect-redis": "^3.4.2",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "faker": "^4.1.0",
+    "helmet": "^3.20.0",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1",
+    "node-geocoder": "^3.23.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "assert": "^1.5.0",
+    "concurrently": "^4.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-node": "^4.0.0",
+    "mocha": "^6.2.0",
+    "mocha-logger": "^1.0.6",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
